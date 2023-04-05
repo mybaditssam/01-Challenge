@@ -1,9 +1,19 @@
 #  Accesibility Standards in Search Engine Optimization
 
-## Table of contents
+This document contains the code for a website or web page about SEO Accessibility Standards. It is designed to be viewed in a web browser and includes various sections with information on Search Engine Optimization, Online Reputation Management, Social Media Marketing, Lead Generation, Brand Awareness, and Cost Management.
 
-- General Information
-- 
+## What's inside?
+
+It contains:
+
+- index.html: the HTML file that contains the code for the web page
+- style.css: the CSS file that contains the styles for the web page, located in the "assets/css" folder
+- images: a folder that contains the images used in the web page, located in the "assets/images" folder
+
+## Accessibility
+
+This web page follows accessibility standards to ensure that users with disabilities can access and interact with the content. The HTML is semantic and includes appropriate heading levels, alt text for images, and labels for form elements. The CSS is adaptable to various screen sizes.
+
 
 
 # 01 HTML, CSS, and Git: Code Refactor
