@@ -7,6 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
+/* Updated header from class selector to element selector*/
 
 header {
     padding: 20px;
@@ -32,6 +33,7 @@ header nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
+/* Removed header ul li*/
 
 header li {
     display: inline-block;
@@ -46,7 +48,7 @@ p {
     font-size: 16px;
 }
 
-.hero {
+.section {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -83,55 +85,31 @@ aside {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* removed the individual selectors for each class and combined them in an aside element selector*/
+
+aside article {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
+/* removed the individual selectors for each <h3> value and combined them in an element selector*/
+
+h3 {
+margin-bottom: 10px;
+text-align: center;
 }
 
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
+/* removed the individual selectors for each img class value and combined them in an element selector*/
 
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+aside img {
     display: block;
-    margin: 10px auto;
+    margin: 10px auto ;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
+/* removed the individual selectors for each article class and combined them in an element selector*/
 
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
+main article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -140,50 +118,19 @@ aside {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
+/* Combined class selector for each image into the main article img elements selector*/
 
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+main article img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
+/* Combined h2 class selectors to an element selector for h2 */
 
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+/* Updated footer and footer h2 from class selector to element selector*/
 
 footer {
     padding: 30px;

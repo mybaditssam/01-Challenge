@@ -1,3 +1,11 @@
+#  Accesibility Standards in Search Engine Optimization
+
+## Table of contents
+
+- General Information
+- 
+
+
 # 01 HTML, CSS, and Git: Code Refactor
 
 ## Challenges in This Course
